@@ -1,0 +1,10 @@
+---
+version: "3.6"
+name: planner-compose
+services:
+
+  integrator-project-planer:
+    container_name: integrator-project-planer
+    build: ..
+    ports:
+      - "4201:4201"
